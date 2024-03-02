@@ -8,6 +8,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Commit;
 
 import java.util.List;
 
@@ -59,6 +60,7 @@ class ItemRepositoryTest {
     }
 
     @Test
+    @Commit
     void findItems() {
         //given
         Item item1 = new Item("itemA-1", 10000, 10);

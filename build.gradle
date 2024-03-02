@@ -23,9 +23,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
 	//MYSQL
-	//implementation 'mysql:mysql-connector-java'
+	implementation 'mysql:mysql-connector-java'
 	//8.0v 이상 해당 imp 적용
-	runtimeOnly 'com.mysql:mysql-connector-j'
+	//runtimeOnly 'com.mysql:mysql-connector-j'
 
 	//jpa
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
